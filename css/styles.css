@@ -1,3 +1,7 @@
+body {
+  font-size: 1.1rem;
+}
+
 /* Top Navbar styling */
 .navbar-top {
   margin: 20px;
@@ -66,8 +70,8 @@ button {
   border: none;
   background-color: none;
   background-color: #e0e0e0;
-  height: 50px;
-  width: 150px;
+  height: 30px;
+  width: 120px;
   border-radius: 5px;
   color: #636363;
 }
@@ -92,12 +96,12 @@ button:hover {
 /* Bottom Navbar */
 footer {
   display: block;
-  background-color: #d3d3d3;
+  background-color: #e6e6e6;
   height: 75px;
   margin-left: 0;
   margin-right: 0;
-  color: #636363;
-  margin-top: 30.2rem;
+  color: #dbdbdb;
+  margin-top: 21.9rem;
 }
 
 .navbar-bottom {
