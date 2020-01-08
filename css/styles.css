@@ -1,6 +1,7 @@
 /* Top Navbar styling */
 .navbar-top {
   margin: 20px;
+  display: inline;
 }
 
 .navbar-top > ul {
@@ -35,4 +36,12 @@ li a:hover {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+}
+
+
+/* Logo */
+.logo {
+  display: block;
+  text-align: center;
+  margin: 150px auto 25px;
 }
