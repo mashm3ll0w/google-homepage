@@ -38,6 +38,38 @@ li a:hover {
   cursor: pointer;
 }
 
+/* Search bar */
+.search-bar  {
+  display: block;
+  text-align: center;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  width: 500px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 0 5px;
+  border: none;
+  background-color: none;
+  background-color: #e0e0e0;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  color: #636363;
+}
+
+button:hover {
+  color: #000;
+  cursor: pointer;
+}
+
 
 /* Logo */
 .logo {
