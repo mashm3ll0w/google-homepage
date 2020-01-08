@@ -1,0 +1,38 @@
+/* Top Navbar styling */
+.navbar-top {
+  margin: 20px;
+}
+
+.navbar-top > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-top > ul > li {
+  float: right;
+  margin: 10px;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: royalblue;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
