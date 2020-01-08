@@ -38,6 +38,13 @@ li a:hover {
   cursor: pointer;
 }
 
+/* Logo */
+.logo {
+  display: block;
+  text-align: center;
+  margin: 150px auto 25px;
+}
+
 /* Search bar */
 .search-bar  {
   display: block;
@@ -70,12 +77,15 @@ button:hover {
   cursor: pointer;
 }
 
-
-/* Logo */
-.logo {
-  display: block;
+/* Language Selector */
+.lang {
   text-align: center;
-  margin: 150px auto 25px;
+  margin-top: 50px;
+}
+
+.lang > p > a {
+  text-decoration: none;
+  color: mediumblue;
 }
 
 
